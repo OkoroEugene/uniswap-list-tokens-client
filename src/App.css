@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  background: #333940!Important;
+  width: 50%!Important;
+  border-radius: 30px!Important;
+  text-align: initial;
+}
+
+.form-side {
+  width: 21%;
+  height: 65px;
+  background: #282D33;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-side:hover {
+  border-color: #a520dc!Important;
+  border: 2px solid;
+  background: #a520dc1c;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.form-main {
+  width: 70%;
+}
+
+.form-inner {
+  display: flex!Important;
+  flex-direction: row!Important;
+  justify-content: space-between!Important;
+  align-items: center!Important;
+}
+
+#exampleInputEmail1 {
+  /* width: 80%!Important; */
+  background: transparent;
+  border: none;
+  box-shadow: none!Important;
+  font-size: 30px;
+}
+
+.title_one {
+  font-size: 12px;
 }
