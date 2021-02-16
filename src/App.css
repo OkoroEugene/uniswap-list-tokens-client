@@ -39,13 +39,13 @@
 
 .card {
   background: #333940!Important;
-  width: 50%!Important;
+  width: 550px!Important;
   border-radius: 30px!Important;
   text-align: initial;
 }
 
 .form-side {
-  width: 21%;
+  width: 28%;
   height: 65px;
   background: #282D33;
   padding: 8px;
@@ -81,8 +81,52 @@
   border: none;
   box-shadow: none!Important;
   font-size: 30px;
+  text-align: right;
 }
 
 .title_one {
   font-size: 12px;
+}
+
+.modal-content {
+  background: #282D33!Important;
+  color: #fff;
+}
+
+.list-group .list-group-item {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #30363e;
+  /* border-radius: 10px; */
+  /* box-shadow: 2px 5px #30363e; */
+}
+
+.modal-body {
+  padding: 0!Important;
+}
+
+.list-content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.list-content img {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.close-icon {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
 }
